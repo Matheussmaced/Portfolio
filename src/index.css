@@ -1,0 +1,35 @@
+:root{
+  --DM: 'DM Sans', sans-serif;
+}
+
+body{
+  background-color: #171717;
+}
+/*Header*/
+h1{
+  color: #fff;
+  font-size: 26px;
+  color: #F9F9F9;
+  transition: transform 1s ease;
+}
+h1:hover{
+  transform: scale(1.2);
+  transition: 1s;
+}
+Header{
+  display: flex;
+  align-items: center;
+  width: 85%;
+  justify-content: space-between;
+  margin: 35px auto;
+  cursor: pointer;
+}
+a{
+  margin-left: 45px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #F9F9F9;
+}
+#sobreMim{
+  margin-left: 0;
+}

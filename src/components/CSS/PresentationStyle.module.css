@@ -1,0 +1,35 @@
+
+.containerPresentation{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: 116px auto;
+    justify-content: space-between;
+}
+h2{
+    color: #f9f9f9;
+    font-size: 36px;
+    width: 330px;
+    margin-bottom: 18px;
+}
+.containerPresentation p{
+    font-size: 18px;
+    color: #828282;
+    margin-bottom: 35px;
+}
+.contato{
+    padding: 12px 27px;
+    background: #00DF5E;
+    font-size: 14px;
+    color: #171717;
+    font-weight: 500;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.avatar{
+    width: 300px;
+    border: #f9f9f9 solid 5px;
+    border-radius: 50%;
+}
