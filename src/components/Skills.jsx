@@ -16,15 +16,15 @@ const Skills = () =>{
                         </div>
 
                         <div className={style.box}>
-                            <img src={iconCss} alt="HTML" />
+                            <img src={iconCss} alt="CSS" />
                         </div>
 
                         <div className={style.box}>
-                            <img src={iconJs} alt="HTML" />
+                            <img src={iconJs} alt="JS" />
                         </div>
 
                         <div className={style.box}>
-                            <img src={iconReact} alt="HTML" />
+                            <img className={style.react} src={iconReact} alt="React" />
                         </div>
                     </div>
             </div>

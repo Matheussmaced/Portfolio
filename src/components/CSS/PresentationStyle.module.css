@@ -28,8 +28,23 @@ h2{
     cursor: pointer;
 }
 
+@keyframes rotation{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
 .avatar{
     width: 300px;
     border: #f9f9f9 solid 5px;
     border-radius: 50%;
+    cursor: pointer;
+}
+.avatar:hover{
+    animation: rotation 20s linear infinite;
+    transition: 3s;
+    border: #00DF5E solid 5px;
 }
