@@ -16,12 +16,12 @@ const Servicos = () => {
 
           <div className={style.box}>
             <img src={figma} alt="Code icon" />
-            <p>Criação sites</p>
+            <p>UI Designer</p>
           </div>
 
           <div className={style.box}>
             <img src={smartphone} alt="Code icon" />
-            <p>Criação sites</p>
+            <p>Sites responsivos</p>
           </div>
         </div>
       </div>
