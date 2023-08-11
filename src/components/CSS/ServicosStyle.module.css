@@ -1,0 +1,25 @@
+.containerServicos h3{
+    text-align: center;
+    color: #f9f9f9;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.boxs{
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin: auto;
+    grid-gap: 45px;
+}
+.box{
+    width: 350px;
+    height: 240px;
+    background-color: #212121;
+    padding: 30px 194px 30px 30px;
+    border-bottom: #00DF5E solid 5px;
+}
+.box p{
+    color: #828282;
+    font-size: 32px;
+    margin-top: 40px;
+}
