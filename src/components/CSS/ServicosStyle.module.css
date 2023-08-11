@@ -3,6 +3,7 @@
     color: #f9f9f9;
     font-size: 32px;
     margin-bottom: 30px;
+    font-weight: 700;
 }
 .boxs{
     display: flex;
@@ -17,6 +18,7 @@
     background-color: #212121;
     padding: 30px 194px 30px 30px;
     border-bottom: #00DF5E solid 5px;
+    margin-bottom: 127px;
 }
 .box p{
     color: #828282;
