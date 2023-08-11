@@ -30,6 +30,7 @@ h4{
 .informs p{
     color: #828282;
     font-weight: 400;
+    margin-top: 3.7px;
 }
 
 @media(max-width: 950px){
@@ -41,7 +42,11 @@ h4{
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 45px;
-        width: 95%;
+        width: 70%;
         margin: 56px auto 56px auto;
     }
+    .informs p{
+        font-size: 11.814px;
+    }
+    
 }

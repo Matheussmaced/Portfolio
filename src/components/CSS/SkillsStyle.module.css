@@ -62,3 +62,23 @@
 .voltar a{
     margin-left: 0;
 }
+
+@media(max-width: 950px){
+    .skills{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 21px;
+        grid-gap: 21px;
+        margin: auto;
+        justify-content: center;
+    }
+    .box{
+        width: 150px;
+        height: 150px;
+        background-color: #212121;
+        padding: 35px;
+        margin-bottom: 21px;
+        cursor: pointer;
+        transition: transform .7s ease;
+     }
+}

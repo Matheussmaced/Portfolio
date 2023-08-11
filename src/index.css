@@ -33,3 +33,9 @@ a{
 #sobreMim{
   margin-left: 0;
 }
+
+@media (max-width: 780px){
+  header a{
+    display: none;
+  }
+}
