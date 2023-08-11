@@ -6,7 +6,7 @@ import smartphone from "../assets/smartphone.svg";
 const Servicos = () => {
   return (
     <>
-      <div className={style.containerServicos}>
+      <div className={style.containerServicos} id="servicos">
         <h3>Serviços</h3>
         <div className={style.boxs}>
           <div className={style.box}>

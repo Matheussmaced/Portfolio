@@ -1,3 +1,5 @@
+
+
 const Header = ()=>{
     return(
         <>
@@ -6,10 +8,10 @@ const Header = ()=>{
                     <h1>Portfólio</h1>
                     <div id="linksHeader">
                         <nav>
-                         <a id="sobreMim" href="/">Sobre mim</a>
-                         <a href="/">Projetos</a>
-                         <a href="/">Serviços</a>
-                         <a href="/">Minhas skills</a>
+                         <a id="#sobreMim" href="#containerPresentation">Sobre mim</a>
+                         <a href="#projetos">Projetos</a>
+                         <a href="#servicos">Serviços</a>
+                         <a href="#skills">Minhas skills</a>
                         </nav>
                     </div>
                 </header>

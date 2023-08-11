@@ -11,7 +11,7 @@ const Projetos = () => {
   return (
     <>
       <div className={style.containerProjetos}>
-        <h2>Projetos</h2>
+        <h2 id="projetos" >Projetos</h2>
         <div className={style.projetosContainerOne}>
           <div className={style.box}>
             <img className={style.projetos} src={projeto1} alt="Projeto1" />

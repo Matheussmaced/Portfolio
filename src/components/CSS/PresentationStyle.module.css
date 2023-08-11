@@ -27,14 +27,12 @@ h2{
     border-radius: 2px;
     cursor: pointer;
 }
-
-@keyframes rotation{
-    from{
-        transform: rotate(0);
-    }
-    to{
-        transform: rotate(360deg);
-    }
+.contato:hover{
+    transition: 0.5s;
+    background-color: #f9f9f9;
+}
+.informsApresentation a{
+    margin-left: 0;
 }
 
 .avatar{
@@ -42,9 +40,10 @@ h2{
     border: #f9f9f9 solid 5px;
     border-radius: 50%;
     cursor: pointer;
+    transition: transform 1s ease;
 }
 .avatar:hover{
-    animation: rotation 20s linear infinite;
-    transition: 3s;
+    transform: scale(1.1);
+    transition: 1s;
     border: #00DF5E solid 5px;
 }
