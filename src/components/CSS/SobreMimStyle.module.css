@@ -1,0 +1,33 @@
+h4{
+   color: #f9f9f9;
+   font-size: 32px;
+   text-align: center;
+}
+.pSobre{
+    color: #828282;
+    margin: 30px auto;
+    width: 50%;
+    text-align: center;
+}
+
+.iconsImg{
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #212121;
+}
+.informs{
+    display: flex;
+    text-align: center;
+    grid-gap: 121px;
+    width: 85%;
+    justify-content: center;
+    margin: 85px auto 195px auto;
+}
+.informs h5{
+    color: #f9f9f9;
+    font-size: 18px;
+}
+.informs p{
+    color: #828282;
+    font-weight: 400;
+}
