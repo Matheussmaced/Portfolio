@@ -31,3 +31,17 @@ h4{
     color: #828282;
     font-weight: 400;
 }
+
+@media(max-width: 950px){
+    .pSobre{
+        width: 95%;
+    }
+
+    .informs{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 45px;
+        width: 95%;
+        margin: 56px auto 56px auto;
+    }
+}

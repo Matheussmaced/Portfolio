@@ -25,3 +25,17 @@
     font-size: 32px;
     margin-top: 40px;
 }
+
+@media(max-width: 1148px){
+    .boxs{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 95%;
+        grid-gap: 0px;
+    }
+
+    .box{
+        margin: 32px auto;
+    }
+}

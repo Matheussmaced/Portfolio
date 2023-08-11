@@ -17,22 +17,22 @@ const SobreMim = () => {
             </p>
         </div>
         <div className={style.informs}>
-            <div className={style.icons}>
+            <div className={`${style.icons} ${style.colum1}`}>
                 <img className={style.iconsImg} src={smile} alt="Smile" />
                 <h5>Meu Nome</h5>
                 <p>Matheus Gregorio</p>
             </div>
-            <div className={style.icons}>
+            <div className={`${style.icons} ${style.colum1}`}>
                 <img className={style.iconsImg} src={mail} alt="E-mail" />
                 <h5>E-mail</h5>
                 <p>mateusbyakuya3@gmail.com</p>
             </div>
-            <div className={style.icons}>
+            <div className={`${style.icons} ${style.colum2}`}>
                 <img className={style.iconsImg} src={instagram} alt="Instagram" />
                 <h5>Instagram</h5>
                 <p>@mateusmaced_</p>
             </div>
-            <div className={style.icons}>
+            <div className={`${style.icons} ${style.colum2}`}>
                 <img className={style.iconsImg} src={telefone} alt="Telefone" />
                 <h5>Telefone</h5>
                 <p>(88) 9.9611-4496</p>

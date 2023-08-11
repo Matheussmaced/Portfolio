@@ -79,3 +79,24 @@
 .linkBtn{
     margin-left: 0;
 }
+
+/*mobile*/
+@media(max-width: 1148px){
+    .containerProjetos{
+        width: 95%;
+        margin: auto;
+    }
+    .projetosContainerOne{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+     }
+     .projetosContainerTwo{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+     }
+     .box{
+        margin: auto;
+    }
+}
