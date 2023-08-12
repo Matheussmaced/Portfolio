@@ -1,15 +1,17 @@
 import menuHamburguer from '../assets/menu_hamburguer.svg'
 
-const Header = ({setBodyHidden, bodyHidden})=>{
+const Header = ({bodyHidden, setBodyHidden, setLinkHidden, linkHidden})=>{
 
     const click = () => {
 
         if(bodyHidden === 'inicial'){
         setBodyHidden('hidden')
+        setLinkHidden('links')
         return
         }
 
         setBodyHidden('inicial')
+        setLinkHidden('inicial')
     }
 
     return(
@@ -18,15 +20,15 @@ const Header = ({setBodyHidden, bodyHidden})=>{
                 <header>
                     <h1>Portfólio</h1>
                     <div id="linksHeader">
-                        <nav>
-                         <a id="#sobreMim" href="#containerPresentation">Sobre mim</a>
-                         <a href="#projetos">Projetos</a>
-                         <a href="#servicos">Serviços</a>
-                         <a href="#skills">Minhas skills</a>
-                         <button onClick={click} id="menuHamburguer">
+                        <nav className={linkHidden}>
+                         <a href="#containerPresentation" id="#sobreMim" className={linkHidden}>Sobre mim</a>
+                         <a href="#projetos" className={linkHidden}>Projetos</a>
+                         <a href="#servicos" className={linkHidden}>Serviços</a>
+                         <a href="#skills" className={linkHidden}>Minhas skills</a>
+                        </nav>
+                        <button onClick={click} id="menuHamburguer">
                             <img src={menuHamburguer} alt="Menu Hamburguer" />
                          </button>
-                        </nav>
                     </div>
                 </header>
             </div>

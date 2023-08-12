@@ -20,7 +20,7 @@ const Presentation = () => {
           </a>
         </div>
         <div id="Photo">
-          <img className={style.avatar} src={avatar} alt="Avatar" />
+          <img id="avatar" className={style.avatar} src={avatar} alt="Avatar" />
         </div>
       </div>
     </>

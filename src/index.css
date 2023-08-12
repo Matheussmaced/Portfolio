@@ -19,10 +19,14 @@ h1:hover{
 Header{
   display: flex;
   align-items: center;
-  width: 80%;
+  width: 100%;
   justify-content: space-between;
-  margin: 35px auto;
+  padding-top: 35px;
   cursor: pointer;
+  position: fixed;
+  top: 0;
+  padding: 35px 10% 5px;
+  background-color: #171717;
 }
 a{
   margin-left: 45px;
@@ -37,17 +41,40 @@ a{
   display: none;
 }
 
-.hidden{
-  display: none !important;
-}
-
 @media (max-width: 780px){
+  header{
+    position: none;
+    width: 95%;
+    left: 2%;
+    padding: 10px;
+  }
   header a{
     display: none;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 3px solid #00DF5E;
+  }
+  nav{
+    position: absolute;
+    display: block;
+    left: 0;
+    z-index: 1;
+    background-color: #171717;
+    top: 50px;
+    width: 100%;
+    padding: 50px 0 50px;
   }
   #menuHamburguer{
     display: flex;
     background-color: transparent;
     border: none;
   }
+  .inicial{
+    display: none;
+  }
+  .links{
+    display: block !important;
+  }
+  
 }

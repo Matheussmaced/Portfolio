@@ -32,7 +32,7 @@ const Skills = () => {
       </div>
 
       <div id="voltarParaTopo" className={style.voltar}>
-          <a href="#linksHeader"><img className={style.seta} src={seta} alt="seta" /></a>
+          <a href='#avatar'><img className={style.seta} src={seta} alt="seta" /></a>
       </div>
     </>
   );
