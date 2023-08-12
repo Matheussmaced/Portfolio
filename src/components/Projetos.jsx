@@ -49,10 +49,10 @@ const Projetos = () => {
             <p>Tecnologias: HTML, CSS, JS e React.js</p>
 
             <div className={style.btns}>
-              <a className={style.linkBtn} href="https://logincodelania.netlify.app/" target="_black">
+              <a className={style.linkBtn} href="https://logincodelania.netlify.app/" target="_blank">
                 <button className={style.demoBtn}>Demo</button>
               </a>
-              <a className={style.linkBtn} href="https://github.com/Matheussmaced/login" target="_black">
+              <a className={style.linkBtn} href="https://github.com/Matheussmaced/login" target="_blank">
                 <button className={style.gitHubBtn}>GitHub</button>
               </a>
             </div>
@@ -65,10 +65,10 @@ const Projetos = () => {
             <p>Tecnologias: HTML, CSS, JS e React.js</p>
 
             <div className={style.btns}>
-              <a className={style.linkBtn} href="https://lokiproject.netlify.app/" target="_black">
+              <a className={style.linkBtn} href="https://lokiproject.netlify.app/" target="_blank">
                 <button className={style.demoBtn}>Demo</button>
               </a>
-              <a className={style.linkBtn} href="https://github.com/Matheussmaced/Loki" target="_black">
+              <a className={style.linkBtn} href="https://github.com/Matheussmaced/Loki" target="_blank">
                 <button className={style.gitHubBtn}>GitHub</button>
               </a>
             </div>
@@ -80,10 +80,10 @@ const Projetos = () => {
             <p>Tecnologias: HTML, CSS, JS e React.js</p>
 
             <div className={style.btns}>
-              <a className={style.linkBtn} href="https://projectvalorantreact.netlify.app/" target="_black">
+              <a className={style.linkBtn} href="https://projectvalorantreact.netlify.app/" target="_blank">
                 <button className={style.demoBtn}>Demo</button>
               </a>
-              <a className={style.linkBtn} href="https://github.com/Matheussmaced/Valorant" target="_black">
+              <a className={style.linkBtn} href="https://github.com/Matheussmaced/Valorant" target="_blank">
                 <button className={style.gitHubBtn}>GitHub</button>
               </a>
             </div>
@@ -95,10 +95,10 @@ const Projetos = () => {
             <p>Tecnologias: HTML, CSS, JS e React.js</p>
 
             <div className={style.btns}>
-              <a className={style.linkBtn} href="https://codemojireact.netlify.app/" target="_black">
+              <a className={style.linkBtn} href="https://codemojireact.netlify.app/" target="_blank">
                 <button className={style.demoBtn}>Demo</button>
               </a>
-              <a className={style.linkBtn} href="https://github.com/Matheussmaced/codeMoji" target="_black">
+              <a className={style.linkBtn} href="https://github.com/Matheussmaced/codeMoji" target="_blank">
                 <button className={style.gitHubBtn}>GitHub</button>
               </a>
             </div>
