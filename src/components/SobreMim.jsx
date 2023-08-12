@@ -25,7 +25,7 @@ const SobreMim = () => {
             <div className={`${style.icons} ${style.colum1}`}>
                 <img className={style.iconsImg} src={mail} alt="E-mail" />
                 <h5>E-mail</h5>
-                <p>mateusbyakuya3@gmail.com</p>
+                <p className={style.email}>mateusbyakuya3@gmail.com</p>
             </div>
             <div className={`${style.icons} ${style.colum2}`}>
                 <img className={style.iconsImg} src={instagram} alt="Instagram" />
