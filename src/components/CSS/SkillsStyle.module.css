@@ -81,4 +81,7 @@
         cursor: pointer;
         transition: transform .7s ease;
      }
+     .voltar{
+        bottom: 50px;
+    }
 }
