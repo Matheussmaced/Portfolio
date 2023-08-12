@@ -4,7 +4,7 @@ import avatar from "../assets/matheus.png";
 const Presentation = () => {
   return (
     <>
-      <div id="containerPresentation" className={style.containerPresentation}>
+      <div id="containerPresentation" className={style.containerPresentation} >
         <div
           id="informationsFromApresentation"
           className={style.informsApresentation}

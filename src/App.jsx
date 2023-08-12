@@ -7,17 +7,22 @@ import Skills from './components/Skills'
 import Footer from './components/Footer'
 import './App.css'
 
+import {useState} from 'react'
+
 function App() {
+  const [bodyHidden, setBodyHidden] = useState('inicial')
 
   return (
     <>
-     <Header />
-     <Presentation />
-     <SobreMim />
-     <Projetos />
-     <Servicos />
-     <Skills />
-     <Footer />
+      <Header setBodyHidden={setBodyHidden} bodyHidden={bodyHidden} />
+      <div className={`body ${bodyHidden}`}>
+        <Presentation />
+        <SobreMim />
+        <Projetos />
+        <Servicos />
+        <Skills />
+        <Footer />
+      </div>
     </>
   )
 }

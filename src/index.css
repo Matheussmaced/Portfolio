@@ -33,9 +33,21 @@ a{
 #sobreMim{
   margin-left: 0;
 }
+#menuHamburguer{
+  display: none;
+}
+
+.hidden{
+  display: none !important;
+}
 
 @media (max-width: 780px){
   header a{
     display: none;
+  }
+  #menuHamburguer{
+    display: flex;
+    background-color: transparent;
+    border: none;
   }
 }
