@@ -4,6 +4,11 @@
     font-size: 32px;
     margin-bottom: 30px;
     font-weight: 700;
+    cursor: pointer;
+}
+h3:hover{
+    color: #00DF5E;
+    transition: 1s;
 }
 .boxs{
     display: flex;

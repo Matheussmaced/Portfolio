@@ -2,6 +2,11 @@ h4{
    color: #f9f9f9;
    font-size: 32px;
    text-align: center;
+   cursor: pointer;
+}
+h4:hover{
+    color: #00DF5E;
+    transition: 1s;
 }
 .pSobre{
     color: #828282;

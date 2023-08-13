@@ -51,11 +51,12 @@
     padding: 10px;
     width: 45%;
     cursor: pointer;
-    color: #fff;
+    color: #212122;
     background-color: #00DF5E;
     font-size: 16px;
     border: none;
     transition: transform 1s ease;
+    border-radius: 30px 20px;
 }
 .demoBtn:hover{
     transform: scale(1.1);
@@ -71,6 +72,7 @@
     color: #fff;
     border: 1px solid #00DF5E;
     transition: transform 1s ease;
+    border-radius: 30px 20px;
 }
 .gitHubBtn:hover{
     transform: scale(1.1);

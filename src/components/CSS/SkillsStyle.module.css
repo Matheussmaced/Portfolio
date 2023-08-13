@@ -4,9 +4,11 @@
     font-weight: 700;
     text-align: center;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 .containerSkills h3:hover{
     color: #00DF5E;
+    transition: 1s;
 }
 .skills{
     display: flex;
