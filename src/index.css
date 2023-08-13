@@ -55,6 +55,10 @@ a{
     padding-left: 10px;
     border-left: 3px solid #00DF5E;
   }
+  @keyframes menu{
+    from{opacity: 0; transform: translateX(-100%);}
+    to{opacity: 1; transform: translateX(0);}
+  }
   nav{
     position: absolute;
     display: block;
@@ -64,6 +68,7 @@ a{
     top: 50px;
     width: 100%;
     padding: 50px 0 50px;
+    animation: menu .5s ease;
   }
   #menuHamburguer{
     display: flex;
