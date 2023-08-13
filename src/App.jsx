@@ -5,7 +5,9 @@ import Projetos from './components/Projetos'
 import Servicos from './components/Servicos'
 import Skills from './components/Skills'
 import Footer from './components/Footer'
+
 import './App.css'
+import './components/CSS/ScrollbarStyle.module.css'
 
 import {useState} from 'react'
 
